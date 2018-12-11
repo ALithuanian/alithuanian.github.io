@@ -77,6 +77,33 @@ O’Bryant, Jacob. “A survey of music recommendation and possible improvements
 https://pdfs.semanticscholar.org/7442/c1ebd6c9ceafa8979f683c5b1584d659b728.pdf 
 	This paper is a meta analysis of existing literature on music recommendations (not solely Spotify). In particular, they study collaborative and content based filtering and propose (without significant implementation) a combined approach that uses user skipping behavior to drive the model learning, balancing exploration and exploitation in generating the optimal listening experience for the user. While the exact practicalities of the design proposed are not made entirely clear and while the constraints of our data (for example, not having information historically or in real time data on user skipping behavior) limited our ability to construct or implement this model exactly, we did find it useful to get a survey of the landscape and different approaches, finding collaborative filtering to be the best fit for our data and interests. Here, the authors find that playlist based and song based KNN perform well on the dataset. Collaborative filtering achieves a similar result but is generally less efficient to implement. 
 
+## Modeling Approach
+
+Collaborative Filtering 
+https://www.ethanrosenthal.com/2015/11/02/intro-to-collaborative-filtering/
+http://infolab.stanford.edu/~ullman/mmds/ch9.pdf
+	Collaborative filtering can operate at the playlist or song level. At the playlist level, collaborative filtering essentially finds the similarity between playlists and how other playlists rate a particular track through their decision to include this track fom the weighted aggregation of this cross-playlist information. Similarly, at the song level, collaborative filtering finds commonalities between songs and how current playlists rate, per the same definition, other songs, thereby formulating a rating measurement for each song. 
+	More broadly, the benefits of collaborative filtering include its ability to scale given correlated items (since the fundamental concept of the model is rooted in correlation based similarities between users and items), ease of implementation, and dynamic capabilities in progressively adding more data. The method’s disadvantages are primarily the sparsity problem rating matrices create, arguable over reliance on user ratings, and difficulty in the early stages when limited data on either front is available for use in the model. 
+	In order to implement collaborative filtering, we first build a playlist song matrix indicating through a binary variable whether a song s was included in the playlist p. Subsequently, we find the cosine similarity (the most common distance metric used in the literature) between songs and between playlists in the data. Cosine similarity is essentially the “distance” between the user and item in the matrix represented as a vector. We then predict whether a playlist contains s using the weighted sum of all other playlists that contain this song - the weighting is determined by the cosine similarity between each playlist in the data and p. A similar approach is taken for songs with the analogous song data.
+	Improvements on the model can be made through considering only the top k items and/or accounting for individual item biases (such as the varying harshness of user ratings in such a model) and/or accounting for biases toward the naturally more popular songs. 
+	In our particular model, we adapt the existing work around collaborative filtering as above described to memory based user item and item item collaborative filtering. We then comparatively analyze and evaluate the 2 approaches. 
+
+## Results
+
+## Conclusion and Summary
+	
+	As discussed in the overview and motivation sections, through this project, we aimed to better understand the performance of different models in generating playlists across different types of listeners and music categories. We also aimed to generate a novel method, building on existing work, that generates playlists for automated song discovery. We focused primarily on considerations of accuracy of song discovery and secondarily, considerations around context (including UI inferences - for example, what would users truly care about when evaluating new songs or other recommendation songs?) as well as practical implementation and execution advantages and disadvantages. We were inspired to pursue this work by the growth in centralized, platform based music streaming services like Spotify and felt that there was tremendous potential in work on recommender systems in this particular area given the rapid user base growth on music streaming platforms and Spotify in particular as well as the aforementioned uniqueness of song discovery as a challenging but rewarding area of recommender system application.  
+
+## Future Work
+There are several possible avenues of future studies to build upon our work here. In particular, we can explore 
+1) how the prediction model capabilities across other possible segmentation of song, playlist, and user types 
+2) the efficacy of content based vs. collaborative filtering approaches
+3) the usage of different evaluation metrics in determining the caliber of prediction models
+4) incorporating user interaction for more direct user real time feedback in learning based models 
+5) the effect of inclusion and exclusion of different types of data, such as intention, mood, and geography  
+6) working with different data sets (such as focusing more on the Million Playlist Data and/or incorporating LyricWiki and the crowdsourced user given tags in the Last.fm data)
+
+
 
 ### GITHUB
 
