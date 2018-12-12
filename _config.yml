@@ -5,6 +5,7 @@ description: CS109A final project
 
 header_pages:
   - exploration.md
+  - eda.md
   - modeling.md
   - results.md
   
