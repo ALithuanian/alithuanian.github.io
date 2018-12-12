@@ -2,8 +2,8 @@
 title: Introduction
 ---
 
-<p align="center"><img src="https://developer.spotify.com/assets/playlistview.png"> <sup>1</sup></p>
-<p align="center"><sub><sup>1</sup></sub></p>
+<p align="center"><img src="https://developer.spotify.com/assets/playlistview.png"></p>
+<p align="right"><sub><sup>1</sup></sub></p>
 
 ## Overview
 
