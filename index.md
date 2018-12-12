@@ -1,5 +1,5 @@
 ---
-title: Welcome to our project site!
+title: Introduction
 ---
 
 ## Overview
