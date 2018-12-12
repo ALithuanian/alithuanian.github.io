@@ -2,7 +2,7 @@
 title: Introduction
 ---
 
-<p align="center"><img src="https://www.caricole.com/wp-content/uploads/2017/05/Cari-1.png"> <sup>1</sup></p>
+<p align="center"><img src="https://developer.spotify.com/assets/playlistview.png"> <sup>1</sup></p>
 <p align="center"><sub><sup>1</sup></sub></p>
 
 ## Overview
@@ -26,4 +26,4 @@ Through this project, we aim to accomplish the following:
 
 In particular, we output a list of candidate tracks for the recommended playlist, ordered by relevance in descending order
 
-<sub><sup>1 https://www.caricole.com/3-ways-artists-are-getting-their-songs-on-spotify-playlists/</sup></sub>
+<sub><sup>1 https://developer.spotify.com/documentation/general/guides/working-with-playlists/</sup></sub>
