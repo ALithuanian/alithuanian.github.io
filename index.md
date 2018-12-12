@@ -17,26 +17,3 @@ Through this project, we aim to accomplish the following:
 2. Create a novel method for automated song discovery, generating a playlist for users based on existing song preferences and their characteristics along dimensions, such as emotion, intent, and geography
 
 In particular, we output a list of candidate tracks for the recommended playlist, ordered by relevance in descending order
-
-
-### GITHUB
-
-```markdown
-```
-Syntax highlighted code block
-
-#### Header 1
-
-- Bulleted
-
-1. Numbered
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ALithuanian/alithuanian.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
