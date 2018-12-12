@@ -509,4 +509,4 @@ def f(row):
 to_save.apply(f, axis=1)
 ```
 
-![png](nbs/eda/output_13_0.png)
+![PNG](nbs/eda/lyrwik.PNG)
