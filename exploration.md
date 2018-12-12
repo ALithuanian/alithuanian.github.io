@@ -23,7 +23,7 @@ With regards to data cleaning,  we removed non existent playlists and track IDs 
 
 We wanted to get a sense of the common attributes of the playlists in the dataset. To investigate this, we decided to analyze playlist titles and noted that the most common keywords were ‘country’ and ‘chill’ while playlist titles such as ‘new’, ‘disney’, ‘throwback music’, and ‘sleep’ occurred with a distinctly lower frequency.
 
-<p align="center"><img src="img/EDA1.png" width="80"></p>
+<p align="center"><img src="img/EDA1.png" width="900"></p>
 
 Other playlist level attributes we explored were the most popular songs and artists across playlists (plots in the Appendix). At this point, we had a fairly good grasp of the kind of songs, artists, and playlists that are the most common in this dataset, so we moved on to exploring inter-variable relationships.
 
