@@ -3,6 +3,7 @@ title: Modeling
 ---
 
 <a name="top" />
+
 ## Collaborative filtering
 
 Collaborative filtering (per [here](https://www.ethanrosenthal.com/2015/11/02/intro-to-collaborative-filtering/) and [here](http://infolab.stanford.edu/~ullman/mmds/ch9.pdf)) can be used at either playlist or song level. At the playlist level, collaborative filtering essentially finds the similarity between playlists and how other playlists rate a particular track through their decision to include this track from the weighted aggregation of this cross-playlist information. Similarly, at the song level, collaborative filtering finds commonalities between songs and how current playlists rate, per the same definition, other songs, thereby formulating a rating measurement for each song. 
@@ -23,12 +24,14 @@ We also attempted to implement a matrix factorization approach; we used the same
 These two different approaches use the same data for vastly different methods under different assumptions. This leads to very different outcomes between these approaches. Collaborative filtering only makes one assumption, which is that playlists with significant overlap in songs contained would probably contain other songs which would be a good match for the other playlist. This assumption appears to hold in the case of playlists, as on the small dataset of 2000 playlists with fairly weak pairwise similarity, we already saw significant improvements in the predictions. On the other hand, matrix factorization also assumes that there exists some set of features in the songs which have analogues in the playlists, such that songs and playlists with similar values in these features would be a good match for one another. This assumption turned out to be false, and this can be attributed to the fact that many users probably enjoy lots of different types of music. Making a playlist of one’s favorite songs is certainly a common thing for people to do, and such playlists would probably not have a particularly strong correlation between the content of the songs in the playlist for any particular feature. Accordingly, this model that attempted to find such a correlation in the features had a nearly 100% rate of failure on the test set.
 
 <a name="code" />
+
 ## Code
 
 * [Collaborative filtering](#collabfilt)
 * [Matrix factorization](#matfac)
 
 <a name="collabfilt" />
+
 ### Collaborative filtering
 
 This is the main code for our Collaborative Filtering approach. Herein we implement both playlist-based and song-based collaborative filtering through the creation of similarity matrices and compare results from the two approaches. Particular thanks to [Ethan Rosenthal](https://www.ethanrosenthal.com/#) for his blog posts on Collaborative Filtering.  
@@ -416,6 +419,7 @@ with sns.axes_style('darkgrid'):
 [Return to top](#top)
 
 <a name="matfac" />
+
 ### Matrix factorization
 
 
