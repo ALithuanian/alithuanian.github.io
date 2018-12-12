@@ -3,6 +3,7 @@ title: Introduction
 ---
 
 <p align="center"><img src="https://www.caricole.com/wp-content/uploads/2017/05/Cari-1.png"> <sup>1</sup></p>
+<p align="center"><sub><sup>1</sup></sub></p>
 
 ## Overview
 
