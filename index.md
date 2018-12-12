@@ -14,7 +14,7 @@ Moreover, music playlist generation is especially impactful - whereas a user may
 A sample Spotify playlist can be explored below
 <br>
 
-<iframe src="https://open.spotify.com/embed/playlist/37i9dQZEVXbLRQDuF5jeBp?si=dFydWR8GTEayv3xvnUqtPg" width="500" height="380" frameborder="0" allowtransparency="true"></iframe>
+<p align="center"><iframe src="https://open.spotify.com/embed/playlist/37i9dQZEVXbLRQDuF5jeBp?si=dFydWR8GTEayv3xvnUqtPg" width="400" height="400" frameborder="0" allowtransparency="true"></iframe></p>
 
 ## Problem Statement
 Through this project, we aim to accomplish the following: 
