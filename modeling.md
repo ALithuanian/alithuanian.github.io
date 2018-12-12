@@ -1,4 +1,6 @@
-# Modeling
+---
+title: Modeling
+---
 
 ## Collaborative filtering
 
