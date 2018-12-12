@@ -1,4 +1,4 @@
-# Motivation & Exploration
+# Motivation \& Exploration
 
 ## Motivation
 Beyond the broader motivations for this area of study previous discussed in the overview, we formulated our approach based on our exploratory data analysis, our own experience using and testing Spotify’s platform, and the literature review described later on. 
