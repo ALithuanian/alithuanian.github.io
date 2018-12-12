@@ -1,4 +1,6 @@
-# Introduction
+---
+title: Welcome to our project site!
+---
 
 ## Overview
 
