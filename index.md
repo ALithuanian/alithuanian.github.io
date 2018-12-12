@@ -2,7 +2,7 @@
 title: Introduction
 ---
 
-<p align="center"><img src="https://www.caricole.com/wp-content/uploads/2017/05/Cari-1.png"><sup>1</sup></p>
+<p align="center"><img src="https://www.caricole.com/wp-content/uploads/2017/05/Cari-1.png"></p><sup>1</sup>
 
 ## Overview
 
@@ -25,4 +25,4 @@ Through this project, we aim to accomplish the following:
 
 In particular, we output a list of candidate tracks for the recommended playlist, ordered by relevance in descending order
 
-<sup>1</sup> <sub><sup>https://www.caricole.com/3-ways-artists-are-getting-their-songs-on-spotify-playlists/</sup></sub>
+<sub><sup>1 https://www.caricole.com/3-ways-artists-are-getting-their-songs-on-spotify-playlists/</sup></sub>
