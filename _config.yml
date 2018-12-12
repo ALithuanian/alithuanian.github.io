@@ -1,5 +1,7 @@
-title: Spotify playlist enhancer
 remote_theme: jekyll/minima
+
+title: Spotify playlist enhancer
+description: CS109A final project
 
 header_pages:
   - exploration.md
