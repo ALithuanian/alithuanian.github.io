@@ -31,7 +31,7 @@ Additional EDA we completed to investigate patterns across categories are as fol
 <p align="center"><img src="img/EDA6.png"></p>
 <br>
 
-#### Code
+## Code
 
 ```python
 import pickle
