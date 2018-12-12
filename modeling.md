@@ -14,7 +14,6 @@ Improvements on the model can be made through considering only the top k items a
 
 In our particular model, we adapt the existing work around collaborative filtering as above described to memory based user item and item item collaborative filtering. We then comparatively analyze and evaluate the 2 approaches. 
 <br>
-<br>
 
 ## Matrix factorization
 
