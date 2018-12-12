@@ -2,6 +2,15 @@
 title: EDA
 ---
 
+<a name="top" />
+
+* [Exploratory Data Analysis](#eda)
+* [Code](#code)
+  
+<a name="eda" />
+
+## Exploratory Data Analysis
+
 We wanted to get a sense of the common attributes of the playlists in the dataset. To investigate this, we decided to analyze playlist titles and noted that the most common keywords were ‘country’ and ‘chill’ while playlist titles such as ‘new’, ‘disney’, ‘throwback music’, and ‘sleep’ occurred with a distinctly lower frequency.
 
 <p align="center"><img src="img/EDA1.png" width="450"></p>
@@ -29,6 +38,8 @@ With regard to other datasets, we found that only around 65% of lyrics data info
 Additional EDA we completed to investigate patterns across categories are as follows: 
 
 <p align="center"><img src="img/EDA6.png"></p>
+
+[Return to top](#top)
 <br>
 
 ## Code
@@ -469,3 +480,5 @@ to_save.apply(f, axis=1)
 ```
 
 ![PNG](nbs/eda/lyrwik.PNG)
+
+[Return to top](#top)
