@@ -14,6 +14,8 @@ Through this project, we aim to accomplish the following:
 
 In particular, we output a list of candidate tracks for the recommended playlist, ordered by relevance in descending order
 
+<iframe src="https://open.spotify.com/embed/playlist/37i9dQZEVXbLRQDuF5jeBp?si=dFydWR8GTEayv3xvnUqtPg" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+
 ## Motivation
 Beyond the broader motivations for this area of study previous discussed in the overview, we formulated our approach based on our exploratory data analysis, our own experience using and testing Spotify’s platform, and the literature review described later on. 
 
