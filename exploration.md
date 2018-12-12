@@ -322,79 +322,79 @@ for col in pl_df.columns:
 ```
 
 
-![png](output_7_0.png)
+![png](nbs/eda/output_7_0.png)
 
 
 
-![png](output_7_1.png)
+![png](nbs/eda/output_7_1.png)
 
 
 
-![png](output_7_2.png)
+![png](nbs/eda/output_7_2.png)
 
 
 
-![png](output_7_3.png)
+![png](nbs/eda/output_7_3.png)
 
 
 
-![png](output_7_4.png)
+![png](nbs/eda/output_7_4.png)
 
 
 
-![png](output_7_5.png)
+![png](nbs/eda/output_7_5.png)
 
 
 
-![png](output_7_6.png)
+![png](nbs/eda/output_7_6.png)
 
 
 
-![png](output_7_7.png)
+![png](nbs/eda/output_7_7.png)
 
 
 
-![png](output_7_8.png)
+![png](nbs/eda/output_7_8.png)
 
 
 
-![png](output_7_9.png)
+![png](nbs/eda/output_7_9.png)
 
 
 
-![png](output_7_10.png)
+![png](nbs/eda/output_7_10.png)
 
 
 
-![png](output_7_11.png)
+![png](nbs/eda/output_7_11.png)
 
 
 
-![png](output_7_12.png)
+![png](nbs/eda/output_7_12.png)
 
 
 
-![png](output_7_13.png)
+![png](nbs/eda/output_7_13.png)
 
 
 
-![png](output_7_14.png)
+![png](nbs/eda/output_7_14.png)
 
 
 
-![png](output_7_15.png)
+![png](nbs/eda/output_7_15.png)
 
 
 
-![png](output_7_16.png)
+![png](nbs/eda/output_7_16.png)
 
 
 
-![png](output_7_17.png)
+![png](nbs/eda/output_7_17.png)
 
 
 
-![png](output_7_18.png)
+![png](nbs/eda/output_7_18.png)
 
 
 
@@ -418,7 +418,7 @@ with sns.axes_style('whitegrid'):
 ```
 
 
-![png](output_8_0.png)
+![png](nbs/eda/output_8_0.png)
 
 
 
@@ -437,7 +437,7 @@ with sns.axes_style('whitegrid'):
 ```
 
 
-![png](output_9_0.png)
+![png](nbs/eda/output_9_0.png)
 
 
 
@@ -465,11 +465,11 @@ with sns.axes_style('whitegrid'):
 ```
 
 
-![png](output_10_0.png)
+![png](nbs/eda/output_10_0.png)
 
 
 
-![png](output_10_1.png)
+![png](nbs/eda/output_10_1.png)
 
 
 
@@ -497,7 +497,7 @@ with sns.axes_style('whitegrid'):
 ```
 
 
-![png](output_12_0.png)
+![png](nbs/eda/output_12_0.png)
 
 
 
@@ -520,7 +520,7 @@ with sns.axes_style('whitegrid'):
 ```
 
 
-![png](output_13_0.png)
+![png](nbs/eda/output_13_0.png)
 
 
 
@@ -605,4 +605,4 @@ def f(row):
 to_save.apply(f, axis=1)
 ```
 
-<img src="lyrwik.png" align="left" alt="drawing" width="500"/>
+<img src="nbs/eda/lyrwik.png" align="left" alt="drawing" width="500"/>
