@@ -2,6 +2,8 @@
 title: Introduction
 ---
 
+<p align="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb2bQFQmFDccp6T_8IU3IjnKBIiN_d9oqXZW9WNspK9GaQ6yGMVg"></p>
+
 ## Overview
 
 Music streaming platforms, such as Spotify, Pandora, and Apple Music have rapidly grown in popularity over recent years, accounting for almost 50% of music consumption globally. Moving forward, these platform and Spotify in particular, with its dominant position and market share, will continue to expand and attract new listeners, transforming the way in which people everywhere interact with music.	
@@ -13,7 +15,6 @@ A sample Spotify playlist is as follows:
 <br>
 
 <iframe src="https://open.spotify.com/embed/playlist/37i9dQZEVXbLRQDuF5jeBp?si=dFydWR8GTEayv3xvnUqtPg" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
-<br>
 
 ## Problem Statement
 Through this project, we aim to accomplish the following: 
