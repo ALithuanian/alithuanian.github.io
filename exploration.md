@@ -72,7 +72,11 @@ This paper is a meta analysis of existing literature on music recommendations (n
 
 ## Code
 
+#### Million Playlist Dataset retrieval
 
+#### Spotify API data retrieval
+
+#### EDA
 
 ```python
 import pickle
