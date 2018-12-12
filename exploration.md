@@ -17,6 +17,8 @@ title: Exploration
 Beyond the broader motivations for this area of study previous discussed in the overview, we formulated our approach based on our exploratory data analysis, our own experience using and testing Spotify’s platform, and the literature review described later on. 
 
 In particular, we found that popularity was, as expected, a powerful song and playlist attribute measure and utilized it when evaluating the caliber of existing songs and playlists. Moreover, we noted that playlists are the sum of the songs within as well as synergies between these songs (rather than purely the sum of the parts). Of course, negative synergies are possible and something to be mindful of in evaluation and construction. Lastly, through our EDA, we better understand the core attributes of songs and playlists and were more informed on additional variables we could construct from the given data to measure things like sentiment and be able to enrich the data informing our model development. 
+
+[Return to top](#top)
 <br>
 
 <a name="dod" />
@@ -30,6 +32,8 @@ The primary units of analysis in the data are playlists and tracks with the mult
 For initial explorations, we examined different visualizations and preliminary analyses of the most popular artists, tracks, and keywords. We created distribution plots to understand popularity and number of follower trends across playlists at the aggregate level. We also sought to better understand how different characteristics (such as degree of acousticness, valence, speechiness, tempo, etc.) of tracks or playlists mapped to popularity score and number of followers (as well as these two measures related to each other - indicating an overall positive relationship, as expected) to better understand how different types of songs appealed to people at the aggregate level. Further details on the results of our initial explorations are included below in the visualizations and findings section.
 
 With regards to data cleaning,  we removed non existent playlists and track IDs ad removed the following track audio-features in a second version of our data set (analysis_url, track_href, uri, and type) as these are not relevant to our future model and broader goal of song discovery. We also removed duplicate columns. For data reconciliation, we compared the data saved in the file and the data before file saving (parameters) to ensure that the two are the same (to ensure the accuracy and preserve the integrity of the data before late use). 
+
+[Return to top](#top)
 <br>
 
 <a name="litrev" />
@@ -51,6 +55,8 @@ Here, a [similar study](https://github.com/mrthlinh/Spotify-Playlist-Recommender
 _O’Bryant, Jacob. “A survey of music recommendation and possible improvements.” April 2017_. [Link to the paper.](https://pdfs.semanticscholar.org/7442/c1ebd6c9ceafa8979f683c5b1584d659b728.pdf)
 
 This paper is a meta analysis of existing literature on music recommendations (not solely Spotify). In particular, they study collaborative and content based filtering and propose (without significant implementation) a combined approach that uses user skipping behavior to drive the model learning, balancing exploration and exploitation in generating the optimal listening experience for the user. While the exact practicalities of the design proposed are not made entirely clear and while the constraints of our data (for example, not having information historically or in real time data on user skipping behavior) limited our ability to construct or implement this model exactly, we did find it useful to get a survey of the landscape and different approaches, finding collaborative filtering to be the best fit for our data and interests. 
+
+[Return to top](#top)
 <br>
 
 <a name="code" />
@@ -59,6 +65,8 @@ This paper is a meta analysis of existing literature on music recommendations (n
 
 * [Million Playlist Dataset](#mpd)
 * [Spotify API Dataset](#spotAPI)
+
+[Return to top](#top)
 
 <a name="mpd" />
 
@@ -646,14 +654,6 @@ playlist_to_tracks
 playlist_features = {}
 for playlist in playlist_to_tracks:
     playlist_features[playlist] = get_track_audio_features(playlist_to_tracks[playlist])
-```
-
-    C:\Users\Elbert\Anaconda3\lib\site-packages\ipykernel_launcher.py:77: UserWarning: DataFrame columns are not unique, some columns will be omitted.
-    
-
-
-```python
-playlist_features
 ```
 
 [Return to code section selection.](#code)
