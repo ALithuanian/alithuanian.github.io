@@ -66,7 +66,7 @@ a = open("playlist_data2.p", 'rb')
 playlist_data = pickle.load(a)
 ```
 
-##### Generating  quality scores for playlists   
+#### Generating  quality scores for playlists   
 Besides similarity scores, we wanted to weigh each playlist in our model according to a custom-generated 'quality' metric. The motivation behind the quality score stemmed from a desire to account for playlists which have a high follower count not as a result of a plurality of good songs but rather by having fewer really popular songs in them. Thus, we divided regularized the number of followers by the mean popularity of the songs contained in the playlist to generate the quality metric. 
 
 
@@ -158,7 +158,7 @@ print('In our dataset, we have {0} songs over {1} playlists'.format(num_songs, n
     In our dataset, we have 1196 songs over 17 playlists
     
 
-##### Generating main dataframe 
+#### Generating main dataframe 
 We generate a dataframe named `inclusion_df` wherein each row corresponds to a playlist, each column corresponds to a song and a value of `1.0` represents that the song (column-value) is present in that playlist (row-value)  
 
 
@@ -255,7 +255,7 @@ inclusion_df.shape
 
 
 
-##### Calculating the sparsity of playlist-song matrix 
+#### Calculating the sparsity of playlist-song matrix 
 
 
 ```python
@@ -276,7 +276,7 @@ def xrange(x):
     return iter(range(x))
 ```
 
-##### Generating train and test data
+#### Generating train and test data
 Split the data into testing and train sets. To generate the test sets, we remove a random 10% of songs from each playlist (and ensure that the train and test sets are completely disjoint)  
 
 
@@ -303,7 +303,7 @@ def train_test_split(inclusions):
 train, test = train_test_split(np.asarray(inclusion_df))
 ```
 
-##### Generating similarity matrices
+#### Generating similarity matrices
 
 
 ```python
@@ -323,7 +323,7 @@ user_similarity = fast_similarity(train, kind='user')
 item_similarity = fast_similarity(train, kind='item')
 ```
 
-##### Generating predictions
+#### Generating predictions
 
 
 ```python
@@ -382,7 +382,7 @@ user_prediction = predict_fast_simple(train, user_similarity, playlist_quality, 
 item_prediction = predict_fast_simple(train, item_similarity, playlist_quality, kind='item')
 ```
 
-##### Comparing MSE from the two approaches
+#### Comparing MSE from the two approaches
 
 
 ```python
