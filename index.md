@@ -2,7 +2,7 @@
 title: Introduction
 ---
 
-<p align="center"><img src="https://www.caricole.com/wp-content/uploads/2017/05/Cari-1.png"></p>
+<p align="center"><img src="https://www.caricole.com/wp-content/uploads/2017/05/Cari-1.png"><sup>1</sup></p>
 
 ## Overview
 
@@ -24,3 +24,5 @@ Through this project, we aim to accomplish the following:
 2. Create a novel method for automated song discovery, generating a playlist for users based on existing song preferences and their characteristics along dimensions, such as emotion, intent, and geography
 
 In particular, we output a list of candidate tracks for the recommended playlist, ordered by relevance in descending order
+
+<sup>1</sup> <sub><sup>https://www.caricole.com/3-ways-artists-are-getting-their-songs-on-spotify-playlists/</sup></sub>
