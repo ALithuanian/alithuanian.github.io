@@ -13,7 +13,7 @@ A sample Spotify playlist is as follows:
 <br>
 
 <iframe src="https://open.spotify.com/embed/playlist/37i9dQZEVXbLRQDuF5jeBp?si=dFydWR8GTEayv3xvnUqtPg" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
-<br><br>
+<br>
 
 ## Problem Statement
 Through this project, we aim to accomplish the following: 
