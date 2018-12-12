@@ -191,148 +191,40 @@ inclusion_df.head()
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>spotify:track:2kFCIJNlWbVawo6uMboWqt</th>
-      <th>spotify:track:4SyZQvdTugBcuSOJjCjUaQ</th>
-      <th>spotify:track:1iJ3232UUZEcP8LpPI8vFN</th>
-      <th>spotify:track:5BSevvj5fcgXr7HPboNaRL</th>
       <th>spotify:track:14gEDPQtsTcbZOWs7EXg4V</th>
-      <th>spotify:track:452sBm5br5I3n8U9N1tq08</th>
-      <th>spotify:track:0xlg27g9OXI2PHvwLJSCoo</th>
-      <th>spotify:track:6PprkICqzvUdCYS7wv1iDh</th>
-      <th>spotify:track:7qLjSwg4SwfXGzWPp1HV9F</th>
-      <th>spotify:track:40wbxg77nK3ouaHTgH0AEe</th>
       <th>...</th>
-      <th>spotify:track:6Gj8t64aE4vrdmR7M7pH1o</th>
-      <th>spotify:track:55TD8m3JOy4xx6qaSKc4uz</th>
-      <th>spotify:track:44NKXFiTqU8Gj5wani079c</th>
-      <th>spotify:track:7ANmgFJ8YDBh0uUOfSeYrX</th>
-      <th>spotify:track:5GXAXm5YOmYT0kL5jHvYBt</th>
-      <th>spotify:track:0g6mKqhGtUIEoLSmV8ozi8</th>
-      <th>spotify:track:0gnS1k4dyGPuD3TtHFaCD8</th>
-      <th>spotify:track:19hM5qpD5U5jLmNh4dg77m</th>
-      <th>spotify:track:4ObrzaK2VVwvy9nd2Y2M6D</th>
-      <th>spotify:track:36UOYu9pMCANOKoJPSHqal</th>
+      <th>tN</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>101121</th>
       <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
       <td>...</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
       <td>0.0</td>
     </tr>
     <tr>
       <th>720740</th>
       <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>1.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
       <td>...</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
+      <td>1.0</td>
     </tr>
     <tr>
       <th>159077</th>
       <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
       <td>...</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>1.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
       <td>0.0</td>
     </tr>
     <tr>
       <th>547873</th>
       <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
       <td>...</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
       <td>0.0</td>
     </tr>
     <tr>
       <th>25495</th>
       <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>1.0</td>
-      <td>0.0</td>
       <td>...</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>1.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
       <td>0.0</td>
     </tr>
   </tbody>
