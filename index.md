@@ -5,6 +5,10 @@ While recommender systems in general have been a popular and crucial area of stu
 
 Moreover, music playlist generation is especially impactful - whereas a user may only commit to watching 1 movie on any given day, the duration of music consumption is frequently much more flexible with high caliber playlists extending user engagement during the session in question as well as user engagement with the platform beyond that particular session. This is, in turn, critical for the development of platforms like Spotify, especially as they see inflection points in user growth in the upcoming years and must focus more so than ever on curating high quality playlists and experiences for each user. Automated song discovery will be increasing essential to Spotify’s core operations as the platform further scales globally, relying more so on efficient and high caliber machine led playlist curation. Playlists are the best way to showcase the core product of music streaming platforms and ultimately drive user growth and retention.
 
+A sample Spotify playlist is as follows:
+
+<iframe src="https://open.spotify.com/embed/playlist/37i9dQZEVXbLRQDuF5jeBp?si=dFydWR8GTEayv3xvnUqtPg" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+
 ## Problem Statement
 Through this project, we aim to accomplish the following: 
 
@@ -13,8 +17,6 @@ Through this project, we aim to accomplish the following:
 2. Create a novel method for automated song discovery, generating a playlist for users based on existing song preferences and their characteristics along dimensions, such as emotion, intent, and geography
 
 In particular, we output a list of candidate tracks for the recommended playlist, ordered by relevance in descending order
-
-<iframe src="https://open.spotify.com/embed/playlist/37i9dQZEVXbLRQDuF5jeBp?si=dFydWR8GTEayv3xvnUqtPg" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
 
 ## Motivation
 Beyond the broader motivations for this area of study previous discussed in the overview, we formulated our approach based on our exploratory data analysis, our own experience using and testing Spotify’s platform, and the literature review described later on. 
