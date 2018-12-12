@@ -2,9 +2,7 @@
 title: Introduction
 ---
 
-<p align="center"><img src="https://developer.spotify.com/assets/playlistview.png"></p>
-<p align="right"><sub><sup>1</sup></sub></p>
-
+<p align="right"><img src="https://developer.spotify.com/assets/playlistview.png"><sub><sup>1</sup></sub></p>
 ## Overview
 
 Music streaming platforms, such as Spotify, Pandora, and Apple Music have rapidly grown in popularity over recent years, accounting for almost 50% of music consumption globally. Moving forward, these platform and Spotify in particular, with its dominant position and market share, will continue to expand and attract new listeners, transforming the way in which people everywhere interact with music.	
