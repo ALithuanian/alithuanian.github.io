@@ -1,5 +1,5 @@
 ---
-title: Motivation and Exploration
+title: Exploration
 ---
 
 ## Motivation
