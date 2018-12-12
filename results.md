@@ -1,4 +1,6 @@
-# Outcomes
+---
+title: Outcomes
+---
 
 ## Results
 
