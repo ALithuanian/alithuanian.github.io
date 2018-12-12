@@ -1,3 +1,5 @@
+# Outcomes
+
 ## Results
 
 None of our models were able to accurately predict which songs were in any given playlist. However, we believe that the collaborative filtering approach with a more comprehensive dataset would have been able to do such a thing. When we ran this model on a set of slightly over 300 playlists, 250 of which were labeled “latin,” and 114 of which labeled “classical,” we discovered that despite sharing categories, these playlists still have abysmally low similarities to one another. As a result, we would see at most 2 songs of overlap between playlists, and very few songs not in the truncated playlist were suggested with any significant probability. We did notice that the probabilities for the songs in the test set did tend to be at least 1%, though, which indicated that there was some playlist with nonzero overlap which contained the song.
