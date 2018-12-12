@@ -1,8 +1,9 @@
-# theme: jekyll-theme-architect
-title: Spotify - G17
+title: Spotify playlist enhancer
 remote_theme: jekyll/minima
 
 header_pages:
   - exploration.md
   - modeling.md
   - results.md
+  
+author: Group 17
