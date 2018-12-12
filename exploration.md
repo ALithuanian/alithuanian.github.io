@@ -159,23 +159,7 @@ pl_df.head()
       <th>acousticness</th>
       <th>available_markets</th>
       <th>category</th>
-      <th>danceability</th>
-      <th>duration_ms</th>
-      <th>energy</th>
-      <th>featured</th>
-      <th>instrumentalness</th>
-      <th>key</th>
-      <th>liveness</th>
-      <th>loudness</th>
-      <th>mode</th>
-      <th>num_followers</th>
-      <th>num_tracks</th>
-      <th>popularity</th>
-      <th>speechiness</th>
-      <th>tempo</th>
-      <th>time_signature</th>
-      <th>valence</th>
-      <th>log_num_followers</th>
+      <th>...</th>
     </tr>
   </thead>
   <tbody>
@@ -184,115 +168,35 @@ pl_df.head()
       <td>0.217346</td>
       <td>70.200000</td>
       <td>toplists</td>
-      <td>0.673640</td>
-      <td>203129.60</td>
-      <td>0.621180</td>
-      <td>1.0</td>
-      <td>0.009691</td>
-      <td>4.780000</td>
-      <td>0.183264</td>
-      <td>-5.896780</td>
-      <td>0.580000</td>
-      <td>21865714.0</td>
-      <td>50.0</td>
-      <td>87.200000</td>
-      <td>0.084872</td>
-      <td>122.794280</td>
-      <td>3.96</td>
-      <td>0.446134</td>
-      <td>16.900430</td>
+      <td>...</td>
     </tr>
     <tr>
       <th>37i9dQZF1DX0XUsuxWHRQd</th>
       <td>0.139279</td>
       <td>70.200000</td>
       <td>toplists</td>
-      <td>0.796300</td>
-      <td>200660.22</td>
-      <td>0.602780</td>
-      <td>1.0</td>
-      <td>0.000873</td>
-      <td>5.800000</td>
-      <td>0.180850</td>
-      <td>-6.382120</td>
-      <td>0.500000</td>
-      <td>10653390.0</td>
-      <td>50.0</td>
-      <td>80.660000</td>
-      <td>0.208504</td>
-      <td>130.144380</td>
-      <td>4.00</td>
-      <td>0.469582</td>
-      <td>16.181389</td>
+      <td>...</td>
     </tr>
     <tr>
       <th>37i9dQZF1DXcF6B6QPhFDv</th>
       <td>0.030224</td>
       <td>57.720000</td>
       <td>toplists</td>
-      <td>0.528680</td>
-      <td>219102.44</td>
-      <td>0.835600</td>
-      <td>0.0</td>
-      <td>0.005290</td>
-      <td>5.180000</td>
-      <td>0.191592</td>
-      <td>-4.673000</td>
-      <td>0.560000</td>
-      <td>4368247.0</td>
-      <td>50.0</td>
-      <td>58.580000</td>
-      <td>0.096252</td>
-      <td>127.268180</td>
-      <td>3.98</td>
-      <td>0.466934</td>
-      <td>15.289872</td>
+      <td>...</td>
     </tr>
     <tr>
       <th>37i9dQZF1DX4dyzvuaRJ0n</th>
       <td>0.080353</td>
       <td>70.200000</td>
       <td>toplists</td>
-      <td>0.617420</td>
-      <td>211810.96</td>
-      <td>0.831620</td>
-      <td>1.0</td>
-      <td>0.108843</td>
-      <td>5.720000</td>
-      <td>0.209426</td>
-      <td>-4.880400</td>
-      <td>0.520000</td>
-      <td>5281388.0</td>
-      <td>50.0</td>
-      <td>62.340000</td>
-      <td>0.078126</td>
-      <td>127.705440</td>
-      <td>3.96</td>
-      <td>0.421104</td>
-      <td>15.479699</td>
+      <td>...</td>
     </tr>
     <tr>
       <th>37i9dQZF1DX1lVhptIYRda</th>
       <td>0.205653</td>
       <td>60.339623</td>
       <td>toplists</td>
-      <td>0.587226</td>
-      <td>198165.00</td>
-      <td>0.714981</td>
-      <td>0.0</td>
-      <td>0.000057</td>
-      <td>5.113208</td>
-      <td>0.160798</td>
-      <td>-5.487509</td>
-      <td>0.811321</td>
-      <td>5142870.0</td>
-      <td>53.0</td>
-      <td>66.698113</td>
-      <td>0.047472</td>
-      <td>124.217585</td>
-      <td>4.00</td>
-      <td>0.562340</td>
-      <td>15.453122</td>
+      <td>...</td>
     </tr>
   </tbody>
 </table>
@@ -605,4 +509,4 @@ def f(row):
 to_save.apply(f, axis=1)
 ```
 
-<img src="nbs/eda/lyrwik.png" align="left" alt="drawing" width="500"/>
+![png](nbs/eda/output_13_0.png)
