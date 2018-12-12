@@ -23,27 +23,27 @@ With regards to data cleaning,  we removed non existent playlists and track IDs 
 
 We wanted to get a sense of the common attributes of the playlists in the dataset. To investigate this, we decided to analyze playlist titles and noted that the most common keywords were ‘country’ and ‘chill’ while playlist titles such as ‘new’, ‘disney’, ‘throwback music’, and ‘sleep’ occurred with a distinctly lower frequency.
 
-<p align="center"><img src="img/EDA1.png" width="900"></p>
+<p align="center"><img src="img/EDA1.png" width="600"></p>
 
 Other playlist level attributes we explored were the most popular songs and artists across playlists (plots in the Appendix). At this point, we had a fairly good grasp of the kind of songs, artists, and playlists that are the most common in this dataset, so we moved on to exploring inter-variable relationships.
 
 We started off by making a Seaborn pairplot to visualize the relationships between all the playlist level variables (see Appendix for plot). The main variable of note (and a potential response variable) is the number of followers of a playlist. In our EDA, we specifically wanted to get a better idea of what attributes garner followers for a given playlist. We first tested the assumption that wider availability of a playlist’s songs would translate to higher followers but on visual inspection, the relationship doesn’t seem to be strongly significant. 
 
-<p align="center"><img src="img/EDA2.png"></p>
+<p align="center"><img src="img/EDA2.png" width="600"></p>
 
 We then tested the hypothesis that playlists comprising of popular songs will have a higher number of followers. Plotting the mean popularity of a playlist’s tracks against its number of followers exhibited a positive correlation upon visual inspection.
 
-<p align="center"><img src="img/EDA3.png"></p>
+<p align="center"><img src="img/EDA3.png" width="600"></p>
 
 We noted that the follower count of a playlist was very strongly influenced by whether the playlist was featured by Spotify or not and we thus proceeded to visually verify this observation. 
 
-<p align="center"><img src="img/EDA4.png"></p>
+<p align="center"><img src="img/EDA4.png" height="350"></p>
 
 Lastly, we wanted to see a breakdown of popularity and follower count across the different playlist categories and visual inspections of such are presented below. 
 
 With regard to other datasets, we found that only around 65% of lyrics data information is accessible via free APIs/scraping of free websites. That is due to three primary reasons: 1) many songs not actually having any lyrics, 2) them being in a non-English language, or 3) lyrics not existing on free sources. Nonetheless, the songs that do have lyrics have a relatively unsurprising distribution of most frequent song terms dominated by the most frequent English words (a, the, I, etc.) and a few generic lyric terms (e.g. love).
 
-<p align="center"><img src="img/EDA5.png"></p>
+<p align="center"><img src="img/EDA5.png" width="400"></p>
 
 Additional EDA we completed to investigate patterns across categories are as follows: 
 
