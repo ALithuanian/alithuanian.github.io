@@ -156,5 +156,6 @@ all_words.value_counts().hist()
 ```
 
 <img src="eda/lyrwik.PNG" align="left" alt="drawing" width="500"/>
+<br>
 
 It seems that using Lyricwikia data for our playlist enhancer is not an option in this case because of 1) low lyrics coverage from the largest free lyric data source; and 2) high frequency of standard words that are useless for differentiation.
