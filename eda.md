@@ -29,15 +29,13 @@ We noted that the follower count of a playlist was very strongly influenced by w
 
 <p align="center"><img src="img/EDA4.png" height="250"></p>
 
-Lastly, we wanted to see a breakdown of popularity and follower count across the different playlist categories and visual inspections of such are presented below. 
-
-With regard to other datasets, we found that only around 37% of lyrics data information is accessible via free APIs/scraping of free websites. That is due to three primary reasons: 1) many songs not actually having any lyrics, 2) them being in a non-English language, 3) lyrics not existing on free sources and 4) variations in title of the same song (including special characters). Nonetheless, the songs that do have lyrics have a relatively unsurprising distribution of most frequent song terms dominated by the most frequent English words (a, the, I, etc.) and a few generic lyric terms (e.g. love).
-
-<p align="center"><img src="img/EDA5.png" width="400"></p>
-
-Additional EDA we completed to investigate patterns across categories is as follows: 
+We also wanted to see a breakdown of popularity and follower count across the different playlist categories and visual inspections of such are presented below. This additional EDA to investigate patterns across categories is as follows: 
 
 <p align="center"><img src="img/EDA6.png"></p>
+
+Lastly, with regard to other datasets, we found that only around 37% of lyrics data information is accessible via free APIs/scraping of free websites. That is due to three primary reasons: 1) many songs not actually having any lyrics, 2) them being in a non-English language, 3) lyrics not existing on free sources and 4) variations in title of the same song (including special characters). Nonetheless, the songs that do have lyrics have a relatively unsurprising distribution of most frequent song terms dominated by the most frequent English words (a, the, I, etc.) and a few generic lyric terms (e.g. love).
+
+<p align="center"><img src="img/EDA5.png" width="400"></p>
 
 [Return to top](#top)
 <br>
