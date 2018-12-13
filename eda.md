@@ -400,13 +400,7 @@ with sns.axes_style('whitegrid'):
 
 ```python
 # pairplotting all variables as a sanity check to see if we missed some obvious patterns
-sns.pairplot(pl_df);
+# sns.pairplot(pl_df);
 ```
-
-    IOPub data rate exceeded.
-    The notebook server will temporarily stop sending output
-    to the client in order to avoid crashing it.
-    To change this limit, set the config variable
-    `--NotebookApp.iopub_data_rate_limit`.
 
 [Return to top](#top)
